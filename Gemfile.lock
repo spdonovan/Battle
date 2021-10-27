@@ -15,6 +15,8 @@ GEM
     childprocess (4.1.0)
     diff-lcs (1.4.4)
     ffi (1.15.4)
+    launchy (2.5.0)
+      addressable (~> 2.7)
     listen (3.7.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -79,6 +81,7 @@ PLATFORMS
 
 DEPENDENCIES
   capybara
+  launchy
   rerun
   rspec
   selenium-webdriver
