@@ -1,7 +1,14 @@
 class Player
-  attr_reader :name
+  DEFAULT_POINTS = 100
 
-  def initialize(name)
+  attr_reader :name, :points
+
+  def initialize(name, points = DEFAULT_POINTS)
     @name = name
+    @points = points
+  end
+
+ def deduct_points
+    @points -= 10
   end
 end
